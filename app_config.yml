@@ -2,3 +2,7 @@ luckyword: "itsAlive"
 spring:
   datasource:
     password: 1234
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/    
